@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Házika </title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            table-layout: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">4x1</th>
+                <th colspan="2" rowspan="2">2x2</th>
+            </tr>
+            <tr>
+                <th>1x1</th>
+                <th>1x1</th>
+                <th>1x1</th>
+                <th>1x1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1x1</td>
+                <td>1x1</td>
+                <td rowspan="3">1x3</td>
+                <td>1x1</td>
+                <td colspan="2" rowspan="6">2x6</td>
+            </tr>
+            <tr>
+                <!--negyedik sor!-->
+                <td>1x1</td>
+                <td rowspan="2">1x2</td>
+                <td rowspan="5">1x5</td>
+            </tr>
+            <tr>
+                <td>1x1</td>
+            </tr>
+            <!--hatodik sor -->
+
+            <tr>
+                <td>1x1</td>
+                <td colspan="2" rowspan="3">2x3</td>
+            </tr>
+            <tr>
+                <td>1x1</td>
+            </tr>
+            <tr>
+                <td>1x1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" rowspan="2">3x2</td>
+                <td rowspan="2">1x2</td>
+                <td>1x1</td>
+                <td>1x1</td>
+            </tr>
+            <tr>
+                <td>1x1</td>
+                <td>1x1</td>
+            </tr>
+            <tr>
+                <td colspan="6">6x1</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
